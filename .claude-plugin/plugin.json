@@ -1,0 +1,8 @@
+{
+  "name": "brainstorm-plugin",
+  "description": "여러 AI(Gemini, Codex)에게 병렬로 의견을 수집하고 Claude가 종합 분석하는 브레인스토밍 도구",
+  "version": "1.0.0",
+  "author": {
+    "name": "gh.baek"
+  }
+}
