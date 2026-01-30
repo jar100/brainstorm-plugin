@@ -26,8 +26,8 @@ Gemini와 Codex CLI를 병렬로 실행하여 다음 질문에 대한 의견을 
 질문: $ARGUMENTS
 
 실행할 명령:
-1. timeout 60 gemini "위 질문" 2>&1 | head -150
-2. timeout 60 codex exec "위 질문" 2>&1 | head -150
+1. timeout 300 gemini "위 질문" 2>&1 | head -150
+2. timeout 300 codex exec "위 질문" 2>&1 | head -150
 
 두 명령을 병렬로 실행하고, 결과를 아래 형식으로 요약해주세요:
 
